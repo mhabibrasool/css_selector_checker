@@ -25,31 +25,39 @@ A lightweight Python CLI tool that checks for the presence and count of CSS sele
 ```bash
 pip install css-selector-checker
 playwright install
-
+```
 ### Option 2: Install manually
+```bash
 git clone https://github.com/your-username/css-selector-checker.git
 cd css-selector-checker
+```
 
 # Create virtual environment (optional but recommended)
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 # Install dependencies
+```bash
 pip install .
 playwright install
-
+```
 
 ### Usage
 # Run from CLI
+```bash
 css_selector_checker
+```
 
 You will be prompted to:
-
+```bash
 Enter the URL to test.
 Enter one or more CSS selectors (comma-separated).
-
+```
 like this:
-
+```bash
 Welcome to CSS selector checking. Please enter the url you wish to search selectors: https://example.com
 Enter the selector you wish to find ( if more than one selector, separate it by comma) : h1, .container, #main
+```
 
