@@ -48,6 +48,7 @@ playwright install
 # Run from CLI
 ```bash
 css_selector_checker
+python3 -m locator
 ```
 
 You will be prompted to:
